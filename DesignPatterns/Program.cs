@@ -12,7 +12,8 @@ namespace DesignPatterns
 			//Solid Desgin Principles
 			//SingleResponsibilityPrinciple.run();
 			//OpenClosedPrinciple.run();
-			LiskovSubstitutionPrinciple.run();
+			//LiskovSubstitutionPrinciple.run();
+			InterfaceSegregationPrinciple.run();
 
 			if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey();
 		}
