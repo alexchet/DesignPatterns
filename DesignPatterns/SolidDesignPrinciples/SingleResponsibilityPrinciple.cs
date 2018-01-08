@@ -41,9 +41,6 @@ namespace DesignPatterns.SolidDesignPrinciples
     {
         public static void run()
 		{
-			Console.WriteLine("Running Single Responsibility Principle");
-			Console.WriteLine("");
-
 			var j = new Journal();
 			j.AddEntry("Today is Moday");
 			j.AddEntry("Lunch is soon served");
@@ -52,9 +49,6 @@ namespace DesignPatterns.SolidDesignPrinciples
 			var p = new Persistence();
 			var filename = @"..\journal.txt";
 			p.SaveToFile(j, filename, true);
-
-			Console.WriteLine("--------------------");
-			Console.WriteLine("");
 		}
     }
 }

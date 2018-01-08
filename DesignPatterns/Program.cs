@@ -9,8 +9,10 @@ namespace DesignPatterns
 	{
 		static void Main(string[] args)
 		{
-			SingleResponsibilityPrinciple.run();
-			OpenClosedPrinciple.run();
+			//Solid Desgin Principles
+			//SingleResponsibilityPrinciple.run();
+			//OpenClosedPrinciple.run();
+			LiskovSubstitutionPrinciple.run();
 
 			if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey();
 		}

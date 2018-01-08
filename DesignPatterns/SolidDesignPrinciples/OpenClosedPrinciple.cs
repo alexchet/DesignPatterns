@@ -106,9 +106,6 @@ namespace DesignPatterns.SolidDesignPrinciples
     {
 		public static void run()
 		{
-			Console.WriteLine("Running Open Closed Principle");
-			Console.WriteLine("");
-
 			var apple = new Product("Apple", Color.Green, Size.Small);
 			var tree = new Product("Tree", Color.Green, Size.Large);
 			var house = new Product("House", Color.Blue, Size.Large);
@@ -131,9 +128,6 @@ namespace DesignPatterns.SolidDesignPrinciples
 			{
 				Console.WriteLine(p.ToString());
 			}
-
-			Console.WriteLine("--------------------");
-			Console.WriteLine("");
 		}
     }
 }
