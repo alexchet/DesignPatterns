@@ -13,7 +13,8 @@ namespace DesignPatterns
 			//SingleResponsibilityPrinciple.run();
 			//OpenClosedPrinciple.run();
 			//LiskovSubstitutionPrinciple.run();
-			InterfaceSegregationPrinciple.run();
+			//InterfaceSegregationPrinciple.run();
+			DependencyInversionPrinciple.run();
 
 			if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey();
 		}
