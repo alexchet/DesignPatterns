@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using DesignPatterns.SolidDesignPrinciples;
+using DesignPatterns.BuilderPattern;
 
 namespace DesignPatterns
 {
@@ -14,7 +15,10 @@ namespace DesignPatterns
 			//OpenClosedPrinciple.run();
 			//LiskovSubstitutionPrinciple.run();
 			//InterfaceSegregationPrinciple.run();
-			DependencyInversionPrinciple.run();
+			//DependencyInversionPrinciple.run();
+
+			//Builder
+			Builder.run();
 
 			if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey();
 		}

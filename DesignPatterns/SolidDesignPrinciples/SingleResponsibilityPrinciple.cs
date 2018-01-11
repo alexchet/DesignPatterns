@@ -42,7 +42,7 @@ namespace DesignPatterns.SolidDesignPrinciples
         public static void run()
 		{
 			var j = new Journal();
-			j.AddEntry("Today is Moday");
+			j.AddEntry("Today is Monday");
 			j.AddEntry("Lunch is soon served");
 			Console.WriteLine(j);
 
