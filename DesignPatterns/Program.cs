@@ -19,6 +19,7 @@ namespace DesignPatterns
 
 			//Builder
 			//Builder.run();
+			FluentBuilderInheritanceRecursiveGenerics.run();
 
 			if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey();
 		}
