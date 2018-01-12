@@ -18,7 +18,7 @@ namespace DesignPatterns
 			//DependencyInversionPrinciple.run();
 
 			//Builder
-			Builder.run();
+			//Builder.run();
 
 			if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey();
 		}
