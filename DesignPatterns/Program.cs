@@ -19,7 +19,8 @@ namespace DesignPatterns
 
 			//Builder
 			//Builder.run();
-			FluentBuilderInheritanceRecursiveGenerics.run();
+			//FluentBuilderInheritanceRecursiveGenerics.run();
+			FacetedBuilder.run();
 
 			if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey();
 		}
