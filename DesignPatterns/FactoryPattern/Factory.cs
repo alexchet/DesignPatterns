@@ -4,12 +4,6 @@ using System.Text;
 
 namespace DesignPatterns.FactoryPattern
 {
-	public enum CoordinateSystem
-	{
-		Cartesian,
-		Polar
-	}
-
 	public static class PointFactory
 	{
 		public static Point NewCartesianPoint(double x, double y)
