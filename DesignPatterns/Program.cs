@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using DesignPatterns.SolidDesignPrinciples;
 using DesignPatterns.BuilderPattern;
+using DesignPatterns.FactoryPattern;
 
 namespace DesignPatterns
 {
@@ -17,10 +18,13 @@ namespace DesignPatterns
 			//InterfaceSegregationPrinciple.run();
 			//DependencyInversionPrinciple.run();
 
-			//Builder
+			//Builder Pattern
 			//Builder.run();
 			//FluentBuilderInheritanceRecursiveGenerics.run();
-			FacetedBuilder.run();
+			//FacetedBuilder.run();
+
+			//Factory Pattern
+			Factory.run();
 
 			if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey();
 		}
