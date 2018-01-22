@@ -24,7 +24,8 @@ namespace DesignPatterns
 			//FacetedBuilder.run();
 
 			//Factory Pattern
-			Factory.run();
+			//Factory.run();
+			AbstractFactory.run();
 
 			if (System.Diagnostics.Debugger.IsAttached) Console.ReadKey();
 		}

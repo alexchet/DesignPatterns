@@ -19,6 +19,9 @@ namespace DesignPatterns.FactoryPattern
 			return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
 		}
 		
+		//singleton
+		public static Point Origin = new Point(0, 0);
+
 		public static class Factory
 		{
 			public static Point NewCartesianPoint(double x, double y)
